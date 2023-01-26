@@ -1,0 +1,10 @@
+.footer__link {
+  display: inline-block;
+}
+@media (max-width: 320px) {
+  .footer__link {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+  }
+}

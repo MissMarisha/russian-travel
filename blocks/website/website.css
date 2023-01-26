@@ -1,0 +1,11 @@
+.website {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  grid-area: website;
+}
+@media (max-width: 625px) {
+  .website {
+    padding: 0 16px;
+  }
+}

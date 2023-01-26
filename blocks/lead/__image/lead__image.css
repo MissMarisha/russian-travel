@@ -1,0 +1,12 @@
+.lead__image {
+  object-fit: contain;
+  max-width: 984px;
+  height: 100%;
+}
+@media (max-width: 767px) {
+  .lead__image {
+    max-width: 767px;
+    width: 100%;
+    padding: 0;
+  }
+}
