@@ -1,4 +1,5 @@
 .header__links {
   display: flex;
+  text-decoration: none;
   gap: 18px;
 }
