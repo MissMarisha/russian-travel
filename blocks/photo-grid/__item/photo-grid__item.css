@@ -2,16 +2,9 @@
   max-width: 352px;
   object-fit: cover;
   width: 100%;
-  /* max-height: 264px; */
-}
-@media (max-width: 1023px) {
-  .photo-grid__item {
-    max-width: 352px;
-  }
 }
 @media (max-width: 620px) {
   .photo-grid__item {
     max-width: 288px;
-    /* max-height: 216px; */
   }
 }

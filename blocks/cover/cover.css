@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: center;
   background: url(../../images/__background.png);
-  background-size: cover;
+  background-size: contain;
   width: 100%;
   background-position: center;
   align-items: center;
@@ -34,7 +34,6 @@
 }
 @media (max-width: 768px) {
   .cover {
-    margin-bottom: 88px;
     min-height: 480px;
   }
   .cover::before {
@@ -45,7 +44,6 @@
 @media (max-width: 320px) {
   .cover {
     min-height: 200px;
-    margin-bottom: 64px;
   }
   .cover::before {
     content: "";

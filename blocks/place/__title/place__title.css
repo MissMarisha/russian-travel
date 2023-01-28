@@ -12,11 +12,6 @@
     max-width: 440px;
   }
 }
-@media (max-width: 1024px) {
-  .place__title {
-    max-width: 440px;
-  }
-}
 @media (max-width: 768px) {
   .place__title {
     max-width: 330px;
